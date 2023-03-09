@@ -1,12 +1,13 @@
 //create theme
 export const theme = {
   colors: {
-    navbarBgColor: "white",
-    mainColor: "#86C8BC",
-    logoColor: "darkslategray",
-    linkColor: "#8B7E74",
-    linkHoverColor: "rgb(5,5,5)",
-    headerFormColor: "rgba(15, 63, 42, 0.36)",
+    navbarBgColor: "black",
+    mainColor: "#17332E",
+    logoColor: "#DD8E51",
+    linkColor: "#F6D6BE",
+    linkHoverColor: "red",
+    headerFormColor: "rgba(0, 30, 20, 0.36)",
+    cardBgColor:"#B79C07",
   },
   screens: {
     lg: "992px",

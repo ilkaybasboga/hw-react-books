@@ -4,6 +4,8 @@ import Flex from "../../styles/Flex";
 export const DetailContainer = styled(Flex)`
    flex-direction:column;
    padding: 1rem; 
+  color: ${({ theme }) => theme.colors.linkColor};
+
 `
 
 export const DetailTitle = styled.h1`

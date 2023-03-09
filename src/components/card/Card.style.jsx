@@ -7,11 +7,11 @@ export const CardContainer = styled(Flex)`
   width: 20rem;
   max-width: 20rem;
   max-height: 20rem;
-  background: ${({ theme }) => theme.colors.navbarBgColor};
+  background: ${({ theme }) => theme.colors.cardBgColor};
   padding: 0.5rem;
   border-radius: 1rem;
   margin: 0.7rem;
-  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 10px 1px rgba(224, 200, 17, 0.3);
   &:hover {
     box-shadow: none;
     transition: all 0.3s ease-in;
