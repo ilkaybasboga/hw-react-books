@@ -9,19 +9,20 @@ export const RegisterContainer = styled.div`
   opacity: 0.8;
 `;
 export const RegFormContainer = styled.div`
-  width: 40rem;
-  height: 40rem;
-  max-width: 50rem;
+  width: 100%;
+  height: 100%;
+ 
   padding: 0.5rem;
   flex-direction: column;
-  margin: auto;
+  
   text-align: center;
 `;
 export const RegisterForm = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 400px;
+  width: 25%;
+  min-width: 15rem;
   background-color: rgba(220, 202, 202, 0.13);
   margin: auto;
   margin-top: 3rem;
