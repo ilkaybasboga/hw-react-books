@@ -1,22 +1,17 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
-
-# Project : Clarus Library
+[Click] (https://hw-router-books.netlify.app/)
+# Project : Google Library
 
 ## Description
 
-Project aims to create a Clarus Library.
+Project aims to create a Google Library.
 
-## Problem Statement
-
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
 
 ## Project Skeleton
 
 ```
-007 - Clarus Library (folder)
+ - Google Library (folder)
 |
-|----readme.md         # Given to the students (Definition of the project)
+|----readme.md        
 SOLUTION
 ├── public
 │     └── index.html
@@ -76,11 +71,11 @@ SOLUTION
 
 ## Expected Outcome
 
-![Clarus Library](clarus-library.gif)
+![Google Library](google_library.gif)
 
 ## Objective
 
-Build a Clarus Library using ReactJS.
+Build a Google Library using ReactJS.
 
 ### At the end of the project, following topics are to be covered;
 
@@ -111,23 +106,6 @@ Build a Clarus Library using ReactJS.
 - Step 5 : You can get random login background image from `https://picsum.photos/1600/900`
 
 - Step 6: Add project gif to your project and README.md file.
-
-## Notes
-
-- You can add additional functionalities to your app.
-
-## Demo
-  <a href="https://clarus-library.vercel.app/" target="_blank">Clarus Library</a>
-
-## Google Books API
-
-<a href="https://developers.google.com/books/docs/v1/using" target="_blank">Google Books API</a>
-
-
-## How can we create an apikey for the Google Books API ? Watch the video!
-<a href="https://www.youtube.com/watch?v=lg6yA8oSW3s" target="_blank">
-Watch the video
-</a>
 
 
 **<p align="center">&#9786; Happy Coding &#9997;</p>**

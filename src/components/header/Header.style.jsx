@@ -25,7 +25,7 @@ export const HeaderForm = styled.form`
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8.3px);
   -webkit-backdrop-filter: blur(8.3px);
-  border: 1px solid rgba(180, 223, 204, 0.3);
+  border: 1px solid rgba(15, 63, 42, 0.3);
   margin: 20px;
   @media (max-width: ${({theme})=> theme.screens.lg}) {
     flex-direction:column;

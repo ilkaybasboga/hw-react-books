@@ -6,8 +6,8 @@ export const lightheme = {
     logoColor: "darkslategray",
     linkColor: "#4B2305",
     detailBgColor: "#4BDE27",
-    detailColor: "#A9F5FA",
-    linkHoverColor: "#A9F5FA",
+    detailColor: "#021B1D",
+    linkHoverColor: "#E07205",
     headerFormColor: "rgba(0, 30, 42, 0.8)",
   },
   screens: {
