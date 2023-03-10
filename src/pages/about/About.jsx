@@ -9,18 +9,21 @@ const About = () => {
     <AboutContainer>
       <ProfileImg src={profile} alt="anthony" />
       <InfoContainer>
-        <h2>Hi, I'm İlkay</h2>
-        <h3>I’m currently learning Front-End Development Languages.</h3>
+        <h2>Hi, I'm Anthony</h2>
+        <h3>I’m currently learning Full-Stack Development Languages.</h3>
         <h4>
-        I'm learning HTML, CSS, JS, ReactJS. Even though React is very difficult right now, I can handle it.
+          I've already known JS, ReactJS, NextJs, ReactNative, Django, NodeJS,
+          MongoDB,SQL, Python, AWS Services.
         </h4>
-        <h4>😳I don't have much time so don't bother me</h4>
+        <h4>💬 You can ask me anything you want to know</h4>
+        <IconContainer>
+          {iconData.map((item) => (
+            <a key={item.icon} href={item.href}>
+              <Icon icon={item.icon} path={item.path} hoverColor={item.color} />
+            </a>
+          ))}
+        </IconContainer>
       </InfoContainer>
-      <IconContainer>
-        {iconData.map(item=> <a key={item.icon} href={item.href}>
-          <Icon icon={item.icon} path={item.path} hoverColor={item.color} />
-        </a>)}
-      </IconContainer>
     </AboutContainer>
   );
 }

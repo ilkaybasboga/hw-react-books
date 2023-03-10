@@ -25,7 +25,7 @@ export const HeaderForm = styled.form`
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(8.3px);
   -webkit-backdrop-filter: blur(8.3px);
-  border: 1px solid rgba(231, 240, 236, 0.3);
+  border: 1px solid rgba(180, 223, 204, 0.3);
   margin: 20px;
   @media (max-width: ${({theme})=> theme.screens.lg}) {
     flex-direction:column;
@@ -45,7 +45,7 @@ export const SearchInput = styled.input`
   font-size: 2rem;
   border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
-  background-color: rgba(252, 195, 6, 0.8);
+  background-color: rgb(255, 255, 255, 0.5);
   ::placeholder {
     text-transform: capitalize;
   }
@@ -64,9 +64,9 @@ export const SelectBox = styled.select`
   border: none;
   outline: none;
   font-size: 2rem;
-  color: ${({ theme }) => theme.colors.linkColor};
   border-top-right-radius: 1rem;
-  background-color: black;
+  color: white;
+  background-color: rgb(0, 0,0, 0.8);
   border-bottom-right-radius: 1rem;
   @media (max-width: ${({ theme }) => theme.screens.lg}) {
     width: 100%;
@@ -75,11 +75,10 @@ export const SelectBox = styled.select`
 `;
 
 export const HeaderButton = styled.button`
-  background-color: #041a69;
-  color: ${({ theme }) => theme.colors.linkColor};
-  padding: 5px;
+  background-color: #49d9db;
+  padding: .8rem;
   outline: none;
-  height: 3rem;
+  height: 4rem;
   border: none;
   margin: 1rem;
   border-radius: 3px;
