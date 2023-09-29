@@ -1,8 +1,12 @@
 import React from 'react'
 import { HeaderButton, HeaderContainer, HeaderForm, HeaderTitle, SearchInput, SelectBox } from './Header.style'
 
+import { useTranslation } from 'react-i18next';
+
 const Header = ({setQuery,setSelectType, getData}) => {
-  const printType = ["all", "books", "magazines"];
+  const printTypeEn = ["all", "books", "magazines"];
+  const printTypeTr = ["Tümü", "Kitaplar", "Dergiler"];
+  const { t } = useTranslation();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -11,18 +15,20 @@ const Header = ({setQuery,setSelectType, getData}) => {
 
   return (
     <HeaderContainer>
-      <HeaderTitle>Books or Magazines</HeaderTitle>
+      <HeaderTitle>{t("home.booksorMagazines")}</HeaderTitle>
       <HeaderForm onSubmit={handleSubmit}>
-        <SearchInput type="text" placeholder='name' onChange={(e)=> setQuery(e.target.value)} required/>
+        <SearchInput type="text" placeholder={t("home.search")} onChange={(e)=> setQuery(e.target.value)} required/>
         <SelectBox onChange={(e)=> setSelectType(e.target.value)}>
           {
-            printType.map((type)=>{
+            t("lang")==="en"?(printTypeEn.map((type)=>{
               return <option key={type} value={type}>{type}</option>;
-            })
+            })):(printTypeTr.map((type)=>{
+              return <option key={type} value={type}>{type}</option>;
+            }))
           }
           </SelectBox> 
           <HeaderButton type='submit'>
-            Search
+          {t("home.search")}
           </HeaderButton>
       </HeaderForm>
     </HeaderContainer>

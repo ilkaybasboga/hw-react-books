@@ -1,6 +1,6 @@
 export const lightheme = {
   colors: {
-    navbarBgColor: "#D7EDEF",
+    navbarBgColor: "#16838D",
     cardBgColor: "#F1F8B6",
     mainColor: "#A9F5FA",
     logoColor: "darkslategray",

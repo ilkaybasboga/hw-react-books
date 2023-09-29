@@ -3,7 +3,6 @@ import { ThemeProvider } from "styled-components";
 import { darktheme, lightheme } from "./styles/theme";
 import { useEffect, useState } from "react";
 // import { GlobalStyles } from "./styles/Global.styles";
-
 function App() {
   const [myTheme, setMyTheme] = useState(
     sessionStorage.getItem("theme") || "light"
@@ -16,6 +15,7 @@ function App() {
   }, [myTheme]);//myTheme değiştikçe storage ve themes güncellenecek. Böylelikle Themeprovidera verdiğimiz theme güncellenmiş olacak. Ve syfa refresh olduğunda kullanıcın theme tercihi değişmemesi için storage da güncellenmiş oluyor.
   return (
     <ThemeProvider theme={themes}>
+     
       {/* <GlobalStyles /> */}
       <AppRouter myTheme={myTheme} setMyTheme={setMyTheme} />{/* statelerimizi approuter aracılığıyla footer a yollayacağız */}
     </ThemeProvider>

@@ -9,7 +9,7 @@ const About = () => {
     <AboutContainer>
       <ProfileImg src={profile} alt="anthony" />
       <InfoContainer>
-        <h2>Hi, I'm Anthony</h2>
+        <h2>Hi, I'm İlkay</h2>
         <h3>I’m currently learning Full-Stack Development Languages.</h3>
         <h4>
           I've already known JS, ReactJS, NextJs, ReactNative, Django, NodeJS,
